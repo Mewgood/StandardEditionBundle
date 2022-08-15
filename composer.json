@@ -20,6 +20,12 @@
       "email": "developers@wellcommerce.org"
     }
   ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Mewgood/ComposerPlugin.git"
+    }
+  ],
   "support": {
     "email": "support@wellcommerce.org",
     "issues": "https://github.com/WellCommerce/StandardEditionBundle/issues",
@@ -31,7 +37,7 @@
     }
   },
   "require": {
-    "wellcommerce/composer-plugin": "^1.0@dev",
+    "wellcommerce/composer-plugin": "dev-composer-2_0",
     "wellcommerce/also-purchased-bundle": "^0.9@dev",
     "wellcommerce/api-bundle": "^0.9@dev",
     "wellcommerce/app-bundle": "^0.9@dev",
